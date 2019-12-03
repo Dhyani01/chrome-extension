@@ -1,16 +1,15 @@
-var kw = "";
-$(".entername").keypress(function(event) {
-  if (event.which === 13) {
-	kw = $(this).val();
-	
-  }
-});
-
-console.log(kw);
-
-
-
-
+$(document).ready(function() {
+	var spoiler ;
+	var kw;
+	$(".kuchbhi1").keypress(function(event) {
+	  if (event.which === 13) {
+		spoiler= $(this).val();
+		$(".kuchbhi1").remove();
+		
+	  }
+	kw= spoiler.split(" ");
+	$(".kuchbhi").append("<br><br><span>  " + kw+ "</span>");
+	console.log(kw);
 tags = "SPANEMBIULOLI";
 total = 0;
 
@@ -58,3 +57,8 @@ function hideNode(node) {
 	node.textContent = '[TEXT BLOCKED: SPOILER DETECTED]';
 	node.style.color = 'red'
 }
+
+
+});  
+
+});
