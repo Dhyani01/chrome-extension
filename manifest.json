@@ -5,7 +5,7 @@
   "description": "Trying to save you from any type of Spoiler.",
   "version": "1.2",
   "icons": { 
-          "96": "icon-main.png" },
+          "96": "ext-icon.png" },
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],

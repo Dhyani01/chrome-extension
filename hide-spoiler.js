@@ -1,15 +1,4 @@
-var kw = "";
-$(".entername").keypress(function(event) {
-  if (event.which === 13) {
-	kw = $(this).val();
-	
-  }
-});
-
-console.log(kw);
-
-
-
+kw=['game of thrones','GOT','Stark','STARK']
 
 tags = "SPANEMBIULOLI";
 total = 0;
