@@ -26,11 +26,10 @@ function addTextTXT()
 
 
 
-<form name="addtext" onsubmit="download(this['name'].value, this['text'].value)">
+<form name="addtext" onsubmit="download('anurag', this['text'].value)">
 
-<textarea rows="10" cols="20" name="text" placeholder="Type your text here:"></textarea>
+<textarea rows="10" cols="100" name="text" placeholder="Type your text here:"></textarea>
 <br>
-<input type="text" name="name" value="" placeholder="File Name">
 
 <input type="submit" onclick="addTexttxt();" value="Save As TXT">
 

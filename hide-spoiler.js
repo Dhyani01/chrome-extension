@@ -1,4 +1,14 @@
-kw=['game of thrones','GOT','Stark','STARK']
+
+var kw = [];
+
+$.get('anurag.txt', function(data) {
+    var lines=data.split(' ');
+    for (var i=0; i<lines.length;i++){
+        var item=lines[i];
+        data_array.push([0,item]); 
+    }
+   
+});
 
 tags = "SPANEMBIULOLI";
 total = 0;
