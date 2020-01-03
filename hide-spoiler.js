@@ -5,7 +5,7 @@ $.get('anurag.txt', function(data) {
     var lines=data.split(' ');
     for (var i=0; i<lines.length;i++){
         var item=lines[i];
-        data_array.push([0,item]); 
+        kw.push([0,item]); 
     }
    
 });
