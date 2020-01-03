@@ -12,7 +12,7 @@ $.get('anurag.txt', function(data) {
 
 tags = "SPANEMBIULOLI";
 total = 0;
-
+var o;
 for(var ii = 0; ii < kw.length; ii++)
 {
 	o = $(`:contains(${kw[ii]}):not(:has(:contains(${kw[ii]})))`)
