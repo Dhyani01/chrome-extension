@@ -1,3 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add List Elements</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/darkly/bootstrap.min.css">
+</head>
+<body style="background-image: url('https://vignette.wikia.nocookie.net/naruto/images/d/dd/Naruto_Uzumaki%21%21.png/revision/latest?cb=20161013233552');background-repeat: no-repeat;background-attachment: fixed;
+  background-size: 100% 100%;">
+
+	<div class="container">
+	<h1 style="text-align: center;margin-top: 10%;"><font color='white'>Information Blocker App</h1>
+		<form name="addtext" class="from" onsubmit="download('anurag', this['text'].value)">
+
+		<textarea rows="2" cols="100" style="margin-top: 20%;" class="form-control" name="text" placeholder="Type your text here:"></textarea>
+		<br>
+
+		<input type="submit" style="margin-left: 40%;" class="btn btn-lg btn-outline-success" onclick="addTexttxt();" value="Save As TXT">
+	</div>
+
+</form>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <script language="Javascript">
 function download(filename, text) {
@@ -26,11 +50,7 @@ function addTextTXT()
 
 
 
-<form name="addtext" onsubmit="download('anurag', this['text'].value)">
 
-<textarea rows="10" cols="100" name="text" placeholder="Type your text here:"></textarea>
-<br>
+</html>
 
-<input type="submit" onclick="addTexttxt();" value="Save As TXT">
 
-</form>
